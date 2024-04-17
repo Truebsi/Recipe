@@ -6,6 +6,7 @@ Seitenlayoutideen: Profile, Bewertungen, Notizen über Sidebar anzeigen lassen
 Statt "Rezepte hochladen" nur einen + Button
 Kategorien beim Hochladen der Rezepte zu unterst ansiedeln
 Rezepte-löschen-Funktion einfügen
+Login, Sign in Button
 Inspiration holen bei gut funktionierenden Apps wie Insta, Google, etc.
 
 Auswertung:
