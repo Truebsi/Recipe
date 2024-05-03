@@ -9,7 +9,6 @@ import io
 import re
 import random
 from github_contents import GithubContents  # Stellen Sie sicher, dass die Klasse definiert ist
-import api_calls
 
 # Set page configuration
 st.set_page_config(page_title="ShaRecipe", page_icon="🔪")
