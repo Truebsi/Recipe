@@ -167,7 +167,7 @@ def sidebar():
         st.session_state.search_term = html_zu_zeilenschaltung(rezeptname)
         
     st.sidebar.title("Suchen")
-    st.session_state.search_term = st.sidebar.text_input(" ",value=st.session_state.search_term)
+    st.session_state.search_term = st.sidebar.text_input(" ")#,value=st.session_state.search_term)
 
     st.sidebar.text(" ")
     # Sidebar für Filteroptionen
