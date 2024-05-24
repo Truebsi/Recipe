@@ -182,8 +182,9 @@ def sidebar():
         recipes = st.session_state.recipes
         index = int(random.randrange(len(recipes)))
         rezeptname = recipes['rezeptname'][index]
-        st.session_state.search_term = html_zu_zeilenschaltung(rezeptname)
-        
+      #set search term only if rezeptname is defined
+        if rezeptname:
+            st.session_state.search_term = html_zu_zeilenschaltung(rezeptname)    
     st.sidebar.title("Suchen")
     st.session_state.search_term = st.sidebar.text_input(" ",value=st.session_state.search_term)
 
