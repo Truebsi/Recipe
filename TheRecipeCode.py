@@ -11,9 +11,6 @@ import ast
 import random
 from github_contents import GithubContents  # Stellen Sie sicher, dass die Klasse definiert ist
 import base64
-from reportlab.lib.pagesizes import letter
-from reportlab.pdfgen import canvas
-
 
 # Set page configuration
 st.set_page_config(page_title="ShaRecipe", page_icon="🔪")
